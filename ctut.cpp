@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    vector <float> primenums = {2, 3, 5};
+    /*vector <float> primenums = {2, 3, 5};
 
     for (float i = 1; i < 10000; i++){
         //cout << primenums[i] << endl;
@@ -26,6 +26,18 @@ int main()
     }
     for (int i = 0; i < 100; i++){
         cout << primenums[i] << endl;
+    }*/
+    int num;
+    cin >> num;
+    // num % 2 computes the remainder when num is divided by 2
+    if ( num % 2 == 0 )
+    {
+        cout << num << " is even " << endl;
     }
+    else{
+        cout << num << " is odd " << endl;
+    }
+
+    
     return 0;
 }
