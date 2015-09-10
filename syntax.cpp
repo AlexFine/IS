@@ -8,6 +8,11 @@ using namespace std;
 
 int foo [5] = { 14, 4, 144, 20, 13411 };
 //ARRAY SYNTAX
+vector<int> v;
+//Declares a vector, v, of integers
+int size_t size = 10;
+vector<int> array(size);    // make room for 10 integers,
+
 
 int main ()
 {
@@ -26,8 +31,21 @@ int main ()
         }
         //while loop
     }
+    //using vector array right now
+    // and initialize them to 0
+    // do something with them:
+    for(int i=0; i<size; ++i){
+        array[i] = i;
+        //print out parts of the vector
+    }
+    
     
     cout << "test" << endl;
     //END ALL C++ MAIN FUNCTIONS WITH RETURNING 0
     return 0;
 }
+/*
+//Refrences
+http://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c4027/C-Tutorial-A-Beginners-Guide-to-stdvector-Part-1.htm
+ 
+*/
