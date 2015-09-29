@@ -6,10 +6,13 @@
 using namespace std;
 #include <math.h>
 
+//To run c++ files, first run g++ filename.cpp
+//Then run ./a.out
+
 int foo [5] = { 14, 4, 144, 20, 13411 };
 //ARRAY SYNTAX
 vector<int> v;
-//Declares a vector, v, of integers
+//Declares a vector, size, of integers
 int size_t size = 10;
 vector<int> array(size);    // make room for 10 integers,
 
@@ -39,6 +42,9 @@ int main ()
         //print out parts of the vector
     }
     
+    int more;
+    cin >> more;
+    //Input to the more variable
     
     cout << "test" << endl;
     //END ALL C++ MAIN FUNCTIONS WITH RETURNING 0
